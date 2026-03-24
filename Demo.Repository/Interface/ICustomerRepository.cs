@@ -14,6 +14,8 @@ namespace Demo.Repository.Interface
         void Create(Customer customer);
         void Update(Customer customer);
         void Delete(Customer customer);
+
+        int Count();
        
 
 
